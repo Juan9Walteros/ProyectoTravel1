@@ -262,14 +262,15 @@ margin-left: 700px;
   background-color: #FFFFFF;
 }
 .Destination{
+  padding-top: 50px;
   background-color: #FEFCFB;
-  height: auto;
+
 }
 
 .inter1{
   height: 660px;
-  width: 1170px;
   margin:auto;
+  background-color: #282c34;
 
 }
 .txtexclusive{
@@ -277,7 +278,18 @@ margin-left: 700px;
   height: 142px;
   width: 675px;
   margin-bottom: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}.Testimonio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
 }
+
 
 .txtE{
   font-size: 48px;
@@ -287,10 +299,23 @@ margin-left: 700px;
 .txtD{
   font-size: 18px;
   color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-6{
   border-radius: 8px;
+}
+
+.ConTx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.colT3{
+  margin-left: -40px;
 }
 
 .card1{
@@ -336,6 +361,8 @@ margin-left: 700px;
 .conCards{
   margin-top: 50px;
   margin-left: calc(6%);
+  display: flex;
+  flex-direction: column;
 }
 .textT1{
   color: #FA7436;
@@ -423,6 +450,11 @@ text-align: left;
 
 .span2{
   background-color: #FA7436 !important;
+}
+.seccion1{
+  display: flex;
+  justify-content: center;
+  
 }
 .seccion2{
   margin-top: 100px;
